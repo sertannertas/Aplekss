@@ -1,0 +1,16 @@
+scroll bars
+min             integer:nesnenin aldýðý en küçük deðerdir.
+max             integer:max nesnenin aldýðý en büyük deðerdir.
+smallchange     integer:nesne oklarýna týklandýðýnda kaç birim hareket edeceðini belirler.
+largechange     integer:nesne boþluðuna týklandýðýnda kaç birim hareket edeceðini belirler.
+value           integer:nesnenin aldýðý deðer bu özelliðe aktarýlýr.
+
+
+timer
+name            string:nesnenin deðiþken ismini belirler.
+enable          mantýksal:true deðerinde nesne çalýþýr.false deðerinde ise geçici olarak duru.
+true    false
+interval        integer:nesnenin çalýþma süresini belirler.belirtilen süre milisaniye cinsindendir.
+
+
+timer olayý:belirtilen her süre geçtiðinde içindeki komutlarý sürekli çalýþtýran olaydýr.
